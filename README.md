@@ -112,8 +112,8 @@ SSH into the control node and follow the steps below:
 > ansible-playbook elk-playbook.yml
   
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-  The ansible hosts file is used to identify machines as different hosts. In the example at
-  [./Ansible/hosts](./Ansible/Hosts) the elk servers are specified at line 29 and 30.
+  The ansible hosts file is used to identify machines as different hosts. In the example with the provided
+  [hosts](./Ansible/Hosts) file the elk servers are specified at line 29 and 30.
   web servers are specified on lines 20-27.
   
   Each playbook specifies which host to use within.
