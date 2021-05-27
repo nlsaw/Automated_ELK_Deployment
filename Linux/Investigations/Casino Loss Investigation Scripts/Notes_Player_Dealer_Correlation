@@ -1,0 +1,10 @@
+In examining the player_loss data we have determined Mylie Schmitd id a player who was present at every major loss. 
+Mylie was present in all 13 cases of major loss on March 10, 12 and 15. The losses were at the same times each day.
+
+
+In examining the Dealer_schedules data using the information gained from player_loss we have discovered that the
+dealer Billy Jones worked at the tables at every instance of loss involving Mylie Schmidt. Billy's schedule matched
+with major losses to Mylie Schmidt at all 13 instances.
+
+Due to this pattern observed where all losses feature Mylie and Billy is working the roulette at every time it
+occurred we conclude that Billy Jones is colluding with Mylie Schmidt to scam Lucky Duck.
