@@ -102,7 +102,8 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the *playbook.yml files to /etc/ansible/roles and *-config.yml files into /etc/ansible/files
 - Update the /etc/ansible/host file to include correct IP configurations for your network. Update the /etc/ansible/ansible.cfg file to include correct usernames for your devices.
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Run the playbook, and navigate to kibana using your browser to check that the installation worked as expected.
+> https://[elk ip address]:5601/app/kibana
 
 ### TROUBLESHOOTING/FAQ
 - _Which file is the playbook? Where do you copy it?_
@@ -134,13 +135,13 @@ SSH into the control node and follow the steps below:
  Checking docker container list.
   > sudo docker container ls -a
  Start and attach to docker container
-  > sudo docker start <container name>
-  > sudo docker attach <container name>
+  > sudo docker start [container name]
+  > sudo docker attach [container name]
  
  Inside ansible container, ping all hosts in .
   > ansible all -m ping
   
  Running a playbook
-  > ansible-playbook <playbook yml>
+  > ansible-playbook [playbook yml]
   
   
