@@ -61,11 +61,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses                                      |
 |----------|---------------------|-----------------------------------------------------------|
-| Jump Box | Yes                 | <HOME IP ADDRESS>                                         |
+| Jump Box | Yes                 | [HOME IP ADDRESS]                                         |
 | Web-1    | No                  | 10.0.0.1                                                  |
 | Web-2    | No                  | 10.0.0.1                                                  |
 | Web-3    | No                  | 10.0.0.1                                                  |
-| ELK      | Yes                 | <Home IP Address>, 10.0.0.1, 10.0.0.5, 10.0.0.6, 10.0.0.7 |
+| ELK      | Yes                 | [Home IP Address], 10.0.0.1, 10.0.0.5, 10.0.0.6, 10.0.0.7 |
   
 
 ### Elk Configuration
@@ -79,7 +79,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![docker ps output](Images/docker_ps_output.png)
+![docker ps output](./Images/docker_ps_output.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -120,13 +120,13 @@ SSH into the control node and follow the steps below:
 - _Which URL do you navigate to in order to check that the ELK server is running?_
   
   This URL will take you to the server's kibana page.
-  > http://<ELK IP ADDRESS>:5601/app/kibana
+  > http://[ELK IP ADDRESS]:5601/app/kibana
   
   This will allow you to check if ELK is receiving data from filebeat. Scroll to the bottom and click Check Data.
-  > http://<ELK IP ADDRESS>:5601/app/kibana#/home/tutorial/systemLogs
+  > http://[ELK IP ADDRESS]:5601/app/kibana#/home/tutorial/systemLogs
   
   This will allow you to check if ELK is receiving data from metricbeat.
-  > http://<ELK IP ADDRESS>:5601/app/kibana#/home/tutorial/systemMetrics
+  > http://[ELK IP ADDRESS]:5601/app/kibana#/home/tutorial/systemMetrics
   
   
 ### _USEFUL COMMANDS_
