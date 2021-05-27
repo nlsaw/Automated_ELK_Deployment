@@ -117,8 +117,16 @@ SSH into the control node and follow the steps below:
   
   Each playbook specifies which host to use within.
   
-- _Which URL do you navigate to in order to check that the ELK server is running?
-  The URL will be http://<ELK IP ADDRESS>:5601/app/kibana
+- _Which URL do you navigate to in order to check that the ELK server is running?_
+  
+  This URL will take you to the server's kibana page.
+  > http://<ELK IP ADDRESS>:5601/app/kibana
+  
+  This will allow you to check if ELK is receiving data from filebeat. Scroll to the bottom and click Check Data.
+  > http://<ELK IP ADDRESS>:5601/app/kibana#/home/tutorial/systemLogs
+  
+  This will allow you to check if ELK is receiving data from metricbeat.
+  > http://<ELK IP ADDRESS>:5601/app/kibana#/home/tutorial/systemMetrics
   
   
 ### _USEFUL COMMANDS_
