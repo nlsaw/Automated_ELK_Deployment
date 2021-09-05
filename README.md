@@ -1,4 +1,4 @@
-# cyber
+# Project 1 of Cyber Security Boot Camp, 2021
 This repository consists of scripts and other files to showcase my knowledge from the cybersecurity bootcamp 2021.
 
 
